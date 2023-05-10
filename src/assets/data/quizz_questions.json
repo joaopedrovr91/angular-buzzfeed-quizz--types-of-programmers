@@ -1,55 +1,61 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Que tipo de desenvolvedor ê você ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Quando vou iniciar um projeto ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"quero resolver os problemas logo", "alias":"A"},
+        {"id": 2, "name":"quero utilizar a tecnologia mais atual", "alias":"B"},
+        {"id": 3, "name":"começo depois organizo", "alias":"C"},
+        {"id": 4, "name":"vou logo montar a interface", "alias":"D"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Quando aparece algum desafio lógico, o que você pensa primeiro ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"gasta seu tempo, quebrando a cabeça pra resolver", "alias":"A"},
+        {"id": 2, "name":"pesquiso, pergunto para os meus amigos ... O que for mais rápido", "alias":"C"},
+        {"id": 3, "name":"Tento trocar ou deixar pra depois", "alias":"D"},
+        {"id": 4, "name":"Vou tentar fazer , qualquer coisa pergunto ou pesquiso", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Estrutura e planejamento, pra você e .... ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"sei fazer qualquer uma", "alias":"A"},
+        {"id": 2, "name":"quero seguir as tendências", "alias":"B"},
+        {"id": 3, "name":"seria bom", "alias":"D"},
+        {"id": 4, "name":"e essencial , até esteticamente se possível", "alias":"C"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Ao finalizar uma task, você nota que teria outra forma de fazer melhor, você ... ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"refaço, pelo aprendizado", "alias":"B"},
+        {"id": 2, "name":"refaço, se for afetar a estrutura", "alias":"A"},
+        {"id": 3, "name":"da próxima vez, eu faço", "alias":"C"},
+        {"id": 4, "name":"se deixar mais apresentável , eu refaço", "alias":"D"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Quando aparece novas tendências  de layouts, eu ... ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"quero logo fazer", "alias":"B"},
+        {"id": 2, "name":"prefiro seguir o escolhido no início do projeto", "alias":"A"},
+        {"id": 3, "name":"se for fácil , eu incluo no projeto", "alias":"C"},
+        {"id": 4, "name":"faço, mesmo que for em meus projetos particulares", "alias":"D"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você muito provavelmente e o analítico !",
+    "B": "Você muito provavelmente e o executor!",
+    "C": "Você muito provavelmente e o prático!",
+    "D": "Você muito provavelmente e o designer!"
   }
 }
